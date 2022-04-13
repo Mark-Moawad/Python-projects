@@ -28,11 +28,11 @@ def play_game():
   comparable_B = select_comparables(data)
   print(art.logo)
   while not game_over:
-    # for debugging:
-    print(comparable_A)
-    print(comparable_B)
-    print(compare(comparable_A, comparable_B))
-    # debugging ends here
+    # # for debugging:
+    # print(comparable_A)
+    # print(comparable_B)
+    # print(compare(comparable_A, comparable_B))
+    # # debugging ends here
     print(f"Compare A: {format_data(comparable_A)}")
     print(art.vs)
     print(f"Against B: {format_data(comparable_B)}.")
