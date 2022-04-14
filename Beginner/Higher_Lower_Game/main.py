@@ -26,6 +26,8 @@ def play_game():
   game_over = False
   comparable_A = select_comparables(data)
   comparable_B = select_comparables(data)
+  if comparable_A == comparable_B:
+    comparable_B = select_comparables(data)
   print(art.logo)
   while not game_over:
     # # for debugging:
